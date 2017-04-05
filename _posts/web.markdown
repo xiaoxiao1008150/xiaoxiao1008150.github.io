@@ -27,7 +27,6 @@ var isFun = make('fun');
 
 
 这是啥一个测试
-呵呵哈哈哈
 
 
 
