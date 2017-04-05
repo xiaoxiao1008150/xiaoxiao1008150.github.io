@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 31 Mar 2017 14:45:31 +0800</pubDate>
+    <lastBuildDate>Fri, 31 Mar 2017 14:45:31 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Deploy Angular2 App</title>
+        <description>&lt;h3 id=&quot;dist&quot;&gt;生成dist文件&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;在angular 项目目录下 ng build –prod ,angular cli 会自动产生一个
+dist 文件夹，这个就是要发布的文件夹&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;firebase&quot;&gt;firebase&lt;/h3&gt;
+&lt;p&gt;sudo npm install install -g firebase-tools&lt;/p&gt;
+
+&lt;p&gt;2.进入firebase,新建项目，在项目dashboard 下 选择 hosting 服务&lt;/p&gt;
+
+&lt;p&gt;3.在item 下安装firebase cli&lt;/p&gt;
+
+&lt;h3 id=&quot;digital-ocean&quot;&gt;Digital ocean&lt;/h3&gt;
+&lt;p&gt;Droplet Name: ubuntu-512mb-sgp1-01&lt;/p&gt;
+
+&lt;p&gt;IP Address: 128.199.129.236&lt;/p&gt;
+
+&lt;p&gt;Username: root
+&lt;!-- Password: 95fcf642466bff69be89838c12 --&gt;
+password:xiaoxiao1008150&lt;/p&gt;
+
+&lt;p&gt;web animations&lt;/p&gt;
+
+&lt;p&gt;http://easings.net/&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 23 Mar 2017 14:39:51 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2017/03/23/welcome-to.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2017/03/23/welcome-to.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>es6 arrow function</title>
+        <description>&lt;h3 id=&quot;section&quot;&gt;箭头函数的返回书写形式&lt;/h3&gt;
+
+&lt;p&gt;1.&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;不管是返回什么，都可以使用{}&lt;/p&gt;
+
+&lt;p&gt;2.&lt;code class=&quot;highlighter-rouge&quot;&gt;（）/什么也不加&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;说明：如果返回的只是一行代码，可以用（），或者什么也不加&lt;/p&gt;
+
+&lt;p&gt;但有个例外，当返回的是对象的时候，必须加上（）&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 16 Mar 2017 14:39:51 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2017/03/16/welcome-to.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2017/03/16/welcome-to.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Angular2 material install</title>
+        <description>&lt;h3 id=&quot;step&quot;&gt;step&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1.install angular2/material，hammerjs&lt;/li&gt;
+  &lt;li&gt;2.app.module.ts 配置&lt;/li&gt;
+  &lt;li&gt;3.因为安装了hammerjs,所以在tsconfig.json文件也需要相应的设置&lt;/li&gt;
+  &lt;li&gt;4.在文件最后，加上 “types”:[“hammerjs”]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;theam-customize&quot;&gt;theam-customize&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1.在style.css同目录下，新增文件，customize.scss&lt;/li&gt;
+  &lt;li&gt;2.angular-cli.json 将新增的文件加入到style中&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;注意：查找颜色在[https://material.io/guidelines/style/color.html#](https://material.io/guidelines/style/color.html#)&lt;/code&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 11 Mar 2017 14:39:51 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2017/03/11/welcome-to.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2017/03/11/welcome-to.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>flex</title>
+        <description>&lt;h3 id=&quot;flex-child-&quot;&gt;flex child 默认所有的高度都是一样的，如果需要不一样&lt;/h3&gt;
+&lt;p&gt;父容器 设置 align-items:flex-start,chils会根据自身内容回到相应的高度
+默认的 align-items:stretch&lt;/p&gt;
+
+&lt;h3 id=&quot;childs-marginpadding&quot;&gt;childs margin，padding&lt;/h3&gt;
+
+&lt;p&gt;padding,margin可以正常设置&lt;/p&gt;
+
+&lt;h3 id=&quot;margin&quot;&gt;有margin的时候平均分布&lt;/h3&gt;
+&lt;p&gt;1.正常设置margin-right
+2.设置childs 宽度:假设有三个div ,width:30%
+parent div ,div:justify-content:space-between&lt;/p&gt;
+
+&lt;p&gt;justify-content是childs在水平方向上分布的guidde
+align-items是在垂直方向上的guide&lt;/p&gt;
+
+&lt;p&gt;flex 定义width 可以用flex-basis&lt;/p&gt;
+
+&lt;h3 id=&quot;parent-flexwrap&quot;&gt;parent flex:wrap&lt;/h3&gt;
+
+&lt;p&gt;默认：childs是不会换行的，只有设置了flex:wrap
+才会换行&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;居中对齐&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;parent&quot;&amp;gt;
+  &amp;lt;p&amp;gt;child&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;目的：child居中对齐
+.parent—heigth,width,display:flex
+.child—margin-auto&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 08 Mar 2017 14:39:51 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2017/03/08/welcome-to.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2017/03/08/welcome-to.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Rxjs</title>
+        <description>&lt;h3 id=&quot;observablefunction&quot;&gt;observable和function的不同&lt;/h3&gt;
+
+&lt;p&gt;function 只能返回一次，observable可以返回多次
+ng not found __3.7号的left fix all
+先安装angular-cli
+&lt;!-- websockets youtube video --&gt;
+ng-redux 看代码 counter&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 07 Mar 2017 14:39:51 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2017/03/07/welcome-to.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2017/03/07/welcome-to.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Anglular2 directives</title>
+        <description>&lt;h3 id=&quot;react-seed&quot;&gt;React seed&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;在chorm的 “崔——样板——react-slingshot” 这是一个react种子文件
+，直接生成相关文件&lt;/li&gt;
+  &lt;li&gt;ng -init 生成文件包&lt;/li&gt;
+  &lt;li&gt;install redux ng2-redux –save&lt;/li&gt;
+  &lt;li&gt;在myangular文件中&lt;/li&gt;
+  &lt;li&gt;redux-demo是最简单的angular-redux例子,store-example 是官方提供的例子&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;angular-attribute-&quot;&gt;angular attribute 一次性初始化&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; property  不是 会一直变化
+
+structural directive ---&amp;gt; *ngIf *ngFor
+attribute directive ---&amp;gt;ngClass ngStyle
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Sat, 25 Feb 2017 14:39:51 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2017/02/25/welcome-to.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2017/02/25/welcome-to.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>axios pratice</title>
+        <description>&lt;h3 id=&quot;rest-api-&quot;&gt;Rest Api 操作&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;test&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  this is a test for API
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/axios/dist/axios.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;apiUrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;http://58ae85af73918a1200362d5f.mockapi.io/myTodos/duty&#39;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//get data&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;axios&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;apiUrl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+
+
+  &lt;span class=&quot;c1&quot;&gt;// //post data&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;axios&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;apiUrl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;SUCCESS&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+     &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+     &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+
+  &lt;span class=&quot;c1&quot;&gt;// // delete&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;axios&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;delete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;apiUrl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;/5&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// update --- put&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;axios&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;apiUrl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;/1&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;have changed&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 22 Feb 2017 14:39:51 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2017/02/22/welcome-to.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2017/02/22/welcome-to.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>localStorage</title>
+        <description>&lt;h3 id=&quot;localstorage&quot;&gt;localStorage&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;test&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  this is a test localStogery
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/axios/dist/axios.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;apiUrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;http://58ae85af73918a1200362d5f.mockapi.io/myTodos/duty&#39;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//get data&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// var test = axios.get(apiUrl)&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//     .then((res) =&amp;gt; {&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//       // console.log(res.data);&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//       // localStorage.clear();&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//       localStorage.list = JSON.stringify(res.data);&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;//     });&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;//localStorage 只能存储字符串，所以要用JSON.stringify&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;local&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+
+
+
+
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 20 Feb 2017 14:39:51 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2017/02/20/welcome-to.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2017/02/20/welcome-to.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>redux install code</title>
+        <description>&lt;h3 id=&quot;crud&quot;&gt;练习 CRUD&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;create-react-app crud&lt;/li&gt;
+  &lt;li&gt;npm install –save redux react-redux redux-thunk&lt;/li&gt;
+  &lt;li&gt;npm install –save redux-devtools-extension&lt;/li&gt;
+  &lt;li&gt;npm install –save react-router@next&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;命令&lt;/h3&gt;
+&lt;p&gt;npm -i D //开发模式
+npm -i S //&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Feb 2017 14:39:51 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2017/02/09/welcome-to.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2017/02/09/welcome-to.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>react module</title>
+        <description>&lt;h3 id=&quot;react-&quot;&gt;react 组件的重新解构&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;文件结构 component–todo–index.js&lt;/td&gt;
+      &lt;td&gt;TodoForm.js&lt;/td&gt;
+      &lt;td&gt;TodoList.js&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;在index.js文件中 
+export {TodoFrom} from ‘./TodoFrom’
+export {TodoList} from ‘./TodoList’&lt;/p&gt;
+
+&lt;p&gt;其他文件引入的时候不用再写成 
+import {TodoFrom} from ‘./components/todo/TodoFrom’
+import {TodoList} from ‘./components/todo/TodoList’&lt;/p&gt;
+
+&lt;p&gt;而是&lt;/p&gt;
+
+&lt;p&gt;import { TodoFrom,TodoList } from ‘./components/todo’&lt;/p&gt;
+
+&lt;p&gt;###react 属性书写形式&lt;/p&gt;
+
+&lt;p&gt;{props.todos.map(todo =&amp;gt;&amp;lt;TodoItem id={todo.id} name={todo.name} complete={todo.complete} /&amp;gt;)}&lt;/p&gt;
+
+&lt;p&gt;用…的形式&lt;/p&gt;
+
+&lt;p&gt;{props.todos.map(todo =&amp;gt;&amp;lt;TodoItem  {…todo} /&amp;gt;)}&lt;/p&gt;
+
+&lt;p&gt;###propTypes&lt;/p&gt;
+
+&lt;p&gt;TodoItem.propTypes = {
+  name:React.PropTypes.string.isRequired.&lt;/p&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;###react 符合条件时，渲染&lt;/p&gt;
+
+&lt;p&gt;{this.state.errorMessage &amp;amp;&amp;amp; &lt;span&gt;{this.state.errorMessage}&lt;span&gt;&lt;/span&gt;}&lt;/span&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 03 Feb 2017 14:39:51 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2017/02/03/welcome-to.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2017/02/03/welcome-to.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
