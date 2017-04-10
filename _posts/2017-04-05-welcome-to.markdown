@@ -28,6 +28,6 @@ use "git checkout -- <file>..." to discard changes in working directory
 git add ,git commit
 
 
-### f
+### git resert 
 
-git reser --hard + 版本号 / 返回到之前任意版本提交的stamp
+ * git reser --hard + 版本号 / 返回到之前任意版本提交的stamp
