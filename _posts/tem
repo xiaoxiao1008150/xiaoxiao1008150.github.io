@@ -118,3 +118,7 @@ console.log(`It is ${ketty.hasPouch} that ${ketty.name} has a pouch`)
 
 
 
+
+boolean(undefined) boolean(null) boolean('') boolean(0)
+
+返回 false 
