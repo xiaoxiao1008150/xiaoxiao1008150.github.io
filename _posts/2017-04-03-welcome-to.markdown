@@ -17,11 +17,10 @@ categories: jekyll update
 * 切换到新建分支--git checkout login
 * 切换到master--git checkout master
 * 分支login完成工作之后，master分支是看不到的，此时要把分支内容合并到master分支
-
  先切换到master 分支，git merge login
 
 
- ### linux command
+### linux command
 
  * cd / -- back to root
  * cd 或者 cd ~ -- back to home
@@ -61,6 +60,15 @@ categories: jekyll update
  * ping
  *  uname -a
  * top --process relative
+
+
+### new
+
+* git branch --查看分支
+* git branch -a 查看本地和远程分支
+* git pull --先把代码拉下来
+
+
 
 
 

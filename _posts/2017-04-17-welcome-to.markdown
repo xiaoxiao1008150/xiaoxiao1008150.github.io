@@ -16,6 +16,7 @@ categories: jekyll update
 * 定义在访问跨域资源时候，浏览器与服务器如何沟通
 * 服务器对于CORS的支持，主要是通过设置 Access-Control-Allow-Origin
   来进行的。如果浏览器检测到相应的设置，就可以允许Ajax跨域访问
+* 对Ie的支持有限，IE10以上，IE8部分支持，查看“can i use”
 
 
 #### 2.jsonp
@@ -30,4 +31,20 @@ categories: jekyll update
 
     3.JSONP主要被老的浏览器支持，它们往往不支持CORS，而绝大多数现代浏览器都已经支持了CORS）。
 ```
+
+#### 3.iframe
+
+> 使用iframe 要用到降域的设置，因此此方法有个限制，就是需要发起请求的url和请求的url两者必须有
+  共同的父域。
+
+```
+a.jrg.com //降域：jrg.com
+b.jrg.com //降域：jrg.com
+jrg.com //
+
+```
+
+#### 4.postMessage
+
+> 此方法不受同父域的限制
 
