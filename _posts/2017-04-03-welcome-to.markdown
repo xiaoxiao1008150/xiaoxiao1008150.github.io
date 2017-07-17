@@ -85,7 +85,7 @@ categories: jekyll update
 ```
 (1) git log查看提交日志
 (2) git revert <版本号> 直接进行add commit程序
-(3) git revert -n <版本号> 不直接进行add commit 程序，必须自己进行手工commit
+(3) git revert -n <版本号> 不直行add commit 程序，必须自己进行手工commit
 ```
 
 
@@ -116,13 +116,23 @@ categories: jekyll update
 > 无论是删除还是重命名文件，都有两种方法，一种是直接在文件夹修改，一种是用linux命令修改，
 第二种会默认 git add步骤，所以直接到stage区域
 
+### git commit --amend -m ''
+```
+比如说是修改导航的信息，已经提交过一次，commit 时候是‘change nav’,但是因为少修改了一条信息，
+修改之后，git add -> git commit --amend -m ''，加到上次的commit里面，提交之后，只能查找到
+一条commit信息，即 ‘change nav’
+```
 
-test
-test
+### .gitignore
+参考地址:[https://github.com/github/gitignore](https://github.com/github/gitignore)
+        [https://help.github.com/articles/ignoring-files/](https://help.github.com/articles/ignoring-files/)
+1. 正则
+2. ！非
+3.注意嵌套文件夹
+4.git会按照.gitignore里面的配置忽视文件跟踪，对于已经处于跟踪状态的文件，使用 git rm --cached 'file1.txt' 清除从stage中清除文件，这样，可以保证file1.txt之后的修改 不再被跟踪
 
-
-
- 
+### branch
+1. git log --oneline:git log 一样，但是会列出简单的信息 
 
 
 
