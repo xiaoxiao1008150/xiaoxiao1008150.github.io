@@ -90,7 +90,16 @@ categories: jekyll update
 * git branch --查看分支
 * git branch -a 查看本地和远程分支
 * git pull --先把代码拉下来
+* git log -n 3 -- 查看三条log信息
+* git log --since=2017-06-20 -- 根据时间查看log信息，since从哪天开始
+* git log --until=2017-06-20 -- 根据时间查看log信息，until到哪天结束
+* git log --grep="fixbug" -- 查看含有所有‘fixbug’字段的log信息
 
+### git diff 
+1. working 区改变了文件，可以用git diff查看working 和 reposity文件之间的区别
+2. 默认git diff是查看所有改变文件改变部分的区别，要单独查看某一个文件的话，git diff file.txt，
+可以单独查看file1.txt文件的diff
+3. 查看stage区文件与reposity问价的区别，git diff --staged
 
 
 
