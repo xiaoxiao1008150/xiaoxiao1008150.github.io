@@ -48,3 +48,10 @@ jrg.com //
 
 > 此方法不受同父域的限制
 
+
+### IE6对ajax支持不是很好
+
+> IE7和IE8下要实现跨域的话，不支持服务器的header设置
+，推荐使用微软出的XDOMainRequest对象
+
+
