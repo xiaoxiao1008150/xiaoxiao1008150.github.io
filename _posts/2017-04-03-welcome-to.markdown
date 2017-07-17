@@ -68,13 +68,19 @@ categories: jekyll update
 
 ### git revert
 
-1. 撤销未提交的代码
+1. 撤销未提交到stage的代码(只在working进行修改的代码)
   
   ```
   (1) git status 查看状态
   (2) git checkout -- <file> ,快捷方式 git checkout -- . 撤销全部文件的内容
   ```
-2. 撤销已经commit的代码
+2. 撤销stage区域的代码(已经git add)
+  
+  ```
+  git reset HEAD <file>
+  ```
+ 
+3. 撤销已经commit的代码
 
 ```
 (1) git log查看提交日志
@@ -103,7 +109,16 @@ categories: jekyll update
 
 ### delete 
 1.从电脑文件夹删除，git add . -> git commit，删除可以在垃圾箱中找回
-2.git rm 'package.json' -> git commit 删除不可再找回
+2.git rm package.json -> git commit 删除不可再找回
+### git mv(重命名)
+1. git 修改名字也有两种方法，一种是直接在文件夹下修改
+2. git mv file1.txt file_rename.txt
+> 无论是删除还是重命名文件，都有两种方法，一种是直接在文件夹修改，一种是用linux命令修改，
+第二种会默认 git add步骤，所以直接到stage区域
+
+
+test
+test
 
 
 
