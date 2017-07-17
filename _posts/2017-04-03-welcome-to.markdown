@@ -101,6 +101,9 @@ categories: jekyll update
 可以单独查看file1.txt文件的diff
 3. 查看stage区文件与reposity问价的区别，git diff --staged
 
+### delete 
+1.从电脑文件夹删除，git add . -> git commit，删除可以在垃圾箱中找回
+2.git rm 'package.json' -> git commit 删除不可再找回
 
 
 
