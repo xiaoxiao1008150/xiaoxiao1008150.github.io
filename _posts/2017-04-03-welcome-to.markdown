@@ -133,6 +133,30 @@ categories: jekyll update
 
 ### branch
 1. git log --oneline:git log 一样，但是会列出简单的信息 
+2. git commit -am 'XXXx': 等于 git add . -> git commit
+3. git checkout -b new_branch: 等于 git branch new_branch -> git checkout new_branch ,即新建一个分支并且直接切换到该分支
+4. git log --graph --oneline --decorate --all:查看主分支所有在一起的信息
+5. git diff master..new_branch:查看两个分支HEAD之间的区别
+6. git branch -m test mytest:重新命名分支名字
+7.git branch -d need_delete:删除分支
+8.git merge --abort 当合并分支有冲突的时候，可以先放弃合并，master分支回到原先未合并之前的状态
+
+### .gitconfig
+1. 我的电脑上，git的配置文件在/Users/wu下，使用命令 git .config --global core.editor "vim"
+配置git 默认pop up的编辑器，git .config --list,可以查看当前配置信息。
+
+### remote
+1. git remote :查看远程分支
+2. git remote -v:查看远程分支的详细信息
+3. git remote rm orign :移除远程分支
+4. git remote add <alias> <url>:对应给已经存在的分支添加远程时候的粘贴信息
+alias指远程分支的别名，默认是origin,url是地址
+5. git push -u origin master:把本地master分支推送到远程origin上
+6. git branch -r:
+7. git branch -a
+8 .git log --oneline origin/master
+9. git pull = git fetch + git merge
+
 
 
 
