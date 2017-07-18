@@ -156,6 +156,8 @@ alias指远程分支的别名，默认是origin,url是地址
 7. git branch -a
 8 .git log --oneline origin/master
 9. git pull = git fetch + git merge
+10.git push origin :test
+11. git push origin --delete test:
 
 
 
