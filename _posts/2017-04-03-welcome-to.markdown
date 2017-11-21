@@ -142,7 +142,10 @@ categories: jekyll update
 8.git merge --abort 当合并分支有冲突的时候，可以先放弃合并，master分支回到原先未合并之前的状态
 
 ### .gitconfig
-1. 我的电脑上，git的配置文件在/Users/wu下，使用命令 git .config --global core.editor "vim"
+1. 我的电脑上，git的配
+
+
+置文件在/Users/wu下，使用命令 git .config --global core.editor "vim"
 配置git 默认pop up的编辑器，git .config --list,可以查看当前配置信息。
 
 ### remote
@@ -152,12 +155,58 @@ categories: jekyll update
 4. git remote add <alias> <url>:对应给已经存在的分支添加远程时候的粘贴信息
 alias指远程分支的别名，默认是origin,url是地址
 5. git push -u origin master:把本地master分支推送到远程origin上
-6. git branch -r:
-7. git branch -a
-8 .git log --oneline origin/master
-9. git pull = git fetch + git merge
-10.git push origin :test
-11. git push origin --delete test:
+6. git branch -r:查看远程分支
+7. git branch -a：同时查看本地和远程分支
+8 .git log --oneline origin/master:查看远程master分支commit信息
+9. git pull = git fetch + git merge:
+10.git push origin :test:删除远程test分支
+11. git push origin --delete test:删除远程test分支
+12. git show <版本号>/HEAD:查看某版本号的提交信息
+
+
+git checkout master
+git fetch
+git merge origin/master
+git checkout test
+git add. 
+git commit 
+git fetch
+git push -u origin test
+
+lynda:
+git checkout master
+git fetch
+git merge origin/master
+git checkout -b test orign/test
+git log --oneline -3
+git add
+git commit
+git push origin test
+
+get fetch
+git  log -p test..origin/test:查看本地test分支和fetch下的origin/test分支的diff
+git merge origin/test
+
+git checkout master
+git fetch
+git merge origin/master
+git merge test(可以直接git merge origin/test )
+git push 
+
+
+
+a:after{transition}
+a:hover:after{}
+webpack 
+
+ 当verdor的时候，默认情况下还是会把代理代码打包进bundle.js,所以必须在module.exports
+ 下面进行设置
+ commonchunkplugin
+
+
+
+
+
 
 
 
